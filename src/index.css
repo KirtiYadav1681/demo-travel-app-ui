@@ -1,0 +1,274 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+*{
+  margin: 0; 
+  padding: 0;
+}
+body {
+    background:
+        linear-gradient(to top right, #fbfbfb, #fbfbfb) top right,
+        linear-gradient(to bottom left, #77c0ff, #77c0ff) bottom left,
+        linear-gradient(to bottom right, #ffe27b, #ffe27b) bottom right,
+        linear-gradient(to top left, #77c0ff, #77c0ff) top left;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    color:rgb(88, 88, 88);
+}
+
+.navbar-wrapper{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-between;
+  padding:20px 10% 10px 10%;
+}
+
+.right-div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-evenly;
+  width: 300px;
+}
+
+.right-div p{
+  font-size:15px;
+  font-weight: bold;
+}
+
+.right-div button{
+  background-color: rgb(43, 152, 255);
+  font-size: 12px;
+  border: none;
+  padding:10px 20px;
+  color:white;
+  border-radius: 20px;
+}
+
+.hero-section{
+  padding:50px 10% 20px 10%;
+}
+
+.hero-banner{
+  display: flex;
+  flex-direction: row;
+  align-items:top;
+}
+
+.left-container{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap:10px;
+}
+.sub-heading{
+  font-size:18px;
+  font-weight: bold;
+  color: rgb(243, 98, 1);
+}
+.left-container h1{
+  font-size:48px;
+  color: #323232;
+}
+.content-wrapper{
+  width: 80%;
+  margin-top: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+.content-wrapper svg{
+  position: absolute;
+  top: 0;
+  color:rgb(43, 152, 255) ;
+}
+.content-wrapper p{
+  margin:0 0 0 80px;
+  font-size: 18px;
+  color: rgb(163, 163, 163);
+}
+.button {
+  margin-top: 30px;
+  border: none;
+  background-color: #323232;
+  padding:8px 5px 8px 15px;
+  color: white;
+  border-radius: 30px;
+  display: flex;
+  font-size: 17px;
+  flex-direction: 
+  row;
+  align-items: center;
+}
+.button  svg{
+  margin-left: 20px;
+  background-color: white;
+  color:#323232;
+  padding:5px;
+  border-radius:50%;
+  font-size: 20px;
+}
+
+.rating-wrapper{
+  margin-top:100px;
+}
+
+.rating-wrapper, .rating div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.users{
+  position: relative;
+}
+#first{
+  z-index:-1;
+  left:0;
+}
+#second,#third{
+  margin-left:-15px;
+}
+
+#second{
+  z-index: 5;
+}
+
+#third{
+  z-index: 10;
+}
+.users svg{
+  border: 3px solid white;
+  border-radius: 50%;
+  margin-top: 5px;
+}
+
+.rating{
+  margin-left:10px;
+}
+
+.rating h4{
+  color: #323232;
+}
+.rating div svg{
+  color: #ffe600;
+}
+.rating div p{
+  margin-left: 5px;
+  font-size:14px;
+}
+
+.right-container{
+  width: 50%;
+  position:relative;
+}
+
+.right-container div{
+  border: 2px solid rgb(243, 98, 1);
+  border-radius: 15px;
+}
+
+#first-image{
+  position: absolute;
+  right: 10px;
+  z-index: 10;
+}
+
+#first-image img{
+  position: relative;
+  right: 15px;
+  top: 15px;
+  height:400px;
+  border-radius: 15px;
+}
+
+#second-image{
+  position: absolute;
+  bottom:30px;
+}
+
+#second-image img{
+  position: relative;
+  border-radius: 15px;
+  top:15px;
+  left: -15px;
+  height:250px;
+}
+
+.left-get-started-div{
+  display: flex;
+  flex-direction: row;
+  gap:15px;
+  width: 51%;
+}
+
+.left-left img{
+  height:650px;
+  width: 300px;
+  border-radius: 15px;
+}
+
+.left-right{
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+}
+
+.left-right img{
+  height:315px;
+  width: 300px;
+  border-radius: 15px;
+}
+.right-get-started-div{
+  margin-top: 30px;
+  padding-left:50px;
+  width: 50%;
+}
+
+.right-get-started-div h2{
+  font-size: 30px;
+  margin:25px 0 20px 0;
+  color: #323232;
+}
+
+.right-get-started-div textarea{
+  width: 92.5%;
+  height: 200px;
+  padding: 20px;
+  border-radius: 20px;
+  font: 15px;
+  color: gray;
+  outline: none;
+  border: none;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+.date-picker-wrapper{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-between;
+}
+
+.date-picker-wrapper div{
+  width: 50%;
+}
+
+.date-picker-wrapper div h4{
+  margin-top:-10px
+}
+
+.right-get-started-div input{
+  margin-top: 8px;
+  width: 80%;
+  padding: 10px;
+  border-radius: 20px;
+  font: 15px;
+  color: gray;
+  outline: none;
+  border: none;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+}
