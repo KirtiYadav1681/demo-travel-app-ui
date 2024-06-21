@@ -1,16 +1,17 @@
 import React from "react";
-import { MdArrowOutward } from "react-icons/md";
 import { RiDoubleQuotesL } from "react-icons/ri";
 import { FaUserCircle } from "react-icons/fa";
 import { FaStar } from "react-icons/fa";
+import SubHeading from "./SubHeading";
+import BlackButton from "./BlackButton";
 
 const HeroBanner = () => {
   return (
-    <section className="hero-section">
+    <section className="section">
       <div className="hero-banner">
 
         <div className="left-container">
-          <p className="sub-heading">EXPLORE THE WORLD </p>
+          <SubHeading subHeading="EXPLORE THE WORLD" />
           <h1>
             Experience A Better Way To Travel, Let Us Guide You On Your Way
           </h1>
@@ -22,9 +23,7 @@ const HeroBanner = () => {
               awaits.
             </p>
           </div>
-          <button className="button">
-            Start Travelling <MdArrowOutward />
-          </button>
+          <BlackButton label="Start Travelling" />
           <div className="rating-wrapper">
             <div className="users">
               <FaUserCircle id="first" size={35} />

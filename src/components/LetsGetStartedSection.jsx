@@ -1,9 +1,10 @@
 import React from "react";
-import { MdArrowOutward } from "react-icons/md";
+import SubHeading from "./SubHeading";
+import BlackButton from "./BlackButton";
 
 const LetsGetStartedSection = () => {
   return (
-    <section className="hero-section" style={{ padding: "60px 10%" }}>
+    <section className="section" style={{ padding: "60px 10%" }}>
       <div className="hero-banner">
         <div className="left-get-started-div">
           <div className="left-left">
@@ -25,11 +26,9 @@ const LetsGetStartedSection = () => {
         </div>
 
         <div className="right-get-started-div">
-          <p className="sub-heading">LET'S GET STARTED</p>
-
+          <SubHeading subHeading="LET'S GET STARTED" />
           <h2 style={{marginTop:"25px"}}>What kind of trip are you looking for?</h2>
           <textarea rows="10" cols="50" placeholder="Describe your ideal trip, e.g. 'A mixture of relaxing and adventuring across Central America'." />
-
           <h2>When are you available to travel?</h2>
           <div className="date-picker-wrapper">
             <div>
@@ -48,12 +47,8 @@ const LetsGetStartedSection = () => {
               />
             </div>
           </div>
-          <button className="button" style={{marginTop: "60px"}}>
-            Next <MdArrowOutward />
-          </button>
+          <BlackButton label="Next" style={{marginTop: "60px"}} />
         </div>
-
-        
       </div>
     </section>
   );
