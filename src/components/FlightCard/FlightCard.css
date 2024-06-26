@@ -1,0 +1,166 @@
+.flight-card-wrapper {
+    margin-top: 20px;
+    background-color: rgba(236, 230, 230, 0.2);
+    padding: 20px 40px;
+    border-radius: 20px;
+    display: flex;
+    gap:20px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .flight-card-left-div {
+    text-align: center;
+  }
+  
+  .flight-card-left-div img {
+    height: 100px;
+    width: 200px;
+  }
+  
+  .flight-card-left-div h1 {
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 15px;
+  }
+  
+  .flight-card-left-div p {
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 15px;
+  }
+  
+  .flight-card-left-div button {
+    background-color: #323232;
+    border-radius: 25px;
+    color: white;
+    padding: 12px 30px;
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 10px;
+  }
+  
+  .flight-card-right-div {
+    width: 73%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  
+  .flight-detail-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: #323232;
+  }
+  
+  .flight-detail-card p {
+    color: #5a5a5a;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .flight-detail-center-div {
+    width: 40%;
+    text-align: center;
+    margin:0 5px;
+  }
+  
+  .flight-detail-center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .flight-detail-center svg {
+    font-size: 20px
+  }
+  
+  .flight-detail-center div {
+    height: 5px;
+    border-radius: 10px;
+    width: 80%;
+    background-color: rgb(222, 222, 222);
+  }
+
+  .flight-detail-left-div, .flight-detail-right-div{
+    text-align: left;
+  }
+  @media screen and (max-width: 1450px) {
+    .flight-card-wrapper {
+      padding: 20px 20px;
+    }
+    
+  }
+
+  @media screen and (max-width:1300px){
+    .flight-card-left-div img {
+      height: 80px;
+      width: 100px;
+    }
+    .flight-card-left-div h1 {
+      font-size: 30px;
+    }
+    .flight-card-right-div {
+      width: 85%;
+    }
+  }
+
+  @media screen and (max-width: 980px) {
+    .flight-detail-card p {
+      font-size: 12px;
+    }
+  }
+
+  @media screen and (max-width:800px) {
+    .flight-detail-card {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      color: #323232;
+    }
+    .flight-detail-center-div {
+      position: absolute;
+      left: 0;
+      width: 40%;
+      text-align: center;
+      margin: 0 5px;
+    }
+    
+    .flight-detail-center {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+    
+    .flight-detail-center svg {
+      font-size: 20px;
+    }
+    
+    .flight-detail-center div {
+      height: 80px; 
+      width: 5px;
+      border-radius: 10px;
+      background-color: rgb(222, 222, 222);
+    }
+    .flight-detail-left-div{
+      margin-left: 50%;
+    }
+    .flight-detail-right-div{
+      margin-left: 50%;
+    }
+    
+  }
+
+  @media screen and (max-width:660px) {
+    .flight-card-wrapper {
+      flex-direction: column;
+    }
+  }

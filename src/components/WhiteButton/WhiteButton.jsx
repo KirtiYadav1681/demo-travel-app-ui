@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './WhiteButton.css';
 
 const WhiteButton = ({label}) => {
   return (

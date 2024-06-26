@@ -1,0 +1,11 @@
+.countries-wrapper{
+  margin-top: -70px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  gap:20px;
+  flex-wrap: wrap;
+  }
+
+  

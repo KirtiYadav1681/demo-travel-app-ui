@@ -1,0 +1,235 @@
+.main-img-div {
+    width: 100%;
+}
+
+.main-img-div img {
+    width: 80%;
+    border-radius: 20px;
+}
+
+.img-content-div {
+    background-color: white;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    padding: 14px;
+    position: absolute;
+    right: 0;
+    top: 35%;
+    width: 40%;
+}
+
+.country-details-div-wrapper {
+    display: flex;
+    gap: 8px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center;
+}
+
+.country-details-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+}
+
+.details-div {
+    background-color: lightcyan;
+    border-radius: 10px;
+    height: 35px;
+    padding: 5px;
+    width: 90%;
+    color: #323232;
+}
+
+.details-div h6 {
+    font-size: 13px;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.details-div p {
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.details-div-arrow {
+    height: 35px;
+    width: 35px;
+    background-color: white;
+    color: #323232;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.detail-content-p {
+    margin-top: 10px;
+}
+
+.detail-content-p p {
+    font-size: 13.5px;
+    color: gray;
+    line-height: 20px;
+}
+
+.img-arrows-div {
+    position: absolute;
+    top: 20px;
+    right: 5%;
+}
+
+.arrows-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.arrow {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: rgb(187, 187, 187);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.section-bottom-div {
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.section-middle-div-div{
+    position: relative;
+}
+.country-detail-div-1{
+    width: 60%;
+}
+.country-detail-div-2{
+    width: 15%;
+}
+.country-detail-div-3{
+    width: 20%;
+}
+.city-button {
+    background-color: white;
+    border: 1px solid #323232;
+    color: gray;
+    border-radius: 20px;
+    padding: 8px 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.bottom-city-button{
+    width:120px;
+    align-self:center;
+    margin-top:50px;
+    color: #323232;
+}
+.city-button svg {
+    margin-left: 5px;
+}
+
+
+@media screen and (min-width:1200px) and (max-width:1286px) {
+    .img-content-div {
+        right: 0;
+        width: 50%;
+        padding: 10px;
+    }
+    
+}
+
+@media screen and (max-width: 1300px) {
+    .img-content-div {
+        width: 50%;
+        height: auto;
+        top:35%;
+        padding: 10px;
+    }
+
+}
+@media screen and (max-width:980px) {
+    .section-bottom-div {
+        margin-top: 100px;
+    }
+    .bottom-city-button{
+        margin-top:20px;
+    }
+    
+}
+@media screen and (max-width: 965px) {
+    .section-bottom-div {
+        margin-top: 20px;
+    }
+    .section-middle-div-div{
+        position: static;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-img-div img{
+        width: 100%;
+    }
+    .img-content-div {
+        margin-top: 15px;
+        background-color: transparent;
+        box-shadow: none;
+        border-radius: none;
+        padding: 14px;
+        position: static;
+        width: 85%;
+    }
+
+    .section-top-div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-button-div {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .img-arrows-div{
+        position: static;
+        width: 100%;
+    }
+    .arrows-div {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        justify-content:space-between;
+    }
+}
+
+@media screen and (max-width:565px) {
+    .country-detail-div-1 {
+        width: 100%;
+    }
+    .country-detail-div-2, .country-detail-div-3 {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .img-content-div {
+        width: 85%;
+    }
+}

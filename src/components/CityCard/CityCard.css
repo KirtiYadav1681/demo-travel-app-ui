@@ -1,0 +1,76 @@
+.city-card-wrapper {
+    padding-bottom: 160px;
+    position: relative;
+    width: calc((100% / 4) - 7.8px);
+}
+
+.city-card-wrapper img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.city-card-content-wrapper {
+    background-color: white;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    padding: 6px 14px 10px 14px;
+    position: absolute;
+    right: 6%;
+    top: 150px;
+    width: 80%;
+}
+
+.city-card-content {
+    margin-top: 10px;
+    text-transform: capitalize;
+    font-size: 13px;
+}
+
+.city-card-content-wrapper h4 {
+    font-size: 17px;
+    margin-top: 10px;
+    padding-bottom: 5px;
+}
+
+.city-card-travel-days {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:1300px) {
+    .city-card-content-wrapper {
+        top: 120px;
+    }
+    .city-card-content{
+        margin-top:5px
+    }
+    .city-card-content-wrapper h4 {
+        font-size: 15px;
+        margin-top: 5px;
+    }
+}
+@media screen and (max-width: 980px) {
+    .city-card-wrapper {
+        width: calc((100% / 2) - 7.8px);
+    }
+
+    .city-card-content-wrapper {
+        top: 40%;
+        right: 2%;
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .city-card-wrapper {
+        width: 100%;
+    }
+
+    .city-card-content-wrapper {
+        top:50%;
+        width: 90%;
+        right: 2%;
+    }
+}

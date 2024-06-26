@@ -1,13 +1,10 @@
 import React from "react";
-import SubHeading from "./SubHeading";
-import SubSubHeading from "./SubSubHeading";
-import WhiteButton from "./WhiteButton";
-import BlackButton from "./BlackButton";
+import {SubHeading,SubSubHeading,WhiteButton,BlackButton,CityCard} from "../"
 import { FaStar } from "react-icons/fa";
 import { MdArrowOutward } from "react-icons/md";
 import { FaArrowRight,FaArrowLeft  } from "react-icons/fa6";
-import CityCard from "./CityCard";
 import { IoIosArrowDown } from "react-icons/io";
+import './ChooseCities.css';
 
 const ChooseCities = () => {
   return (
@@ -27,7 +24,7 @@ const ChooseCities = () => {
         </div>
 
         <div className="section-middle-div">
-          <div style={{ position: "relative" }}>
+          <div className="section-middle-div-div">
             <div className="main-img-div">
               <img
                 src="https://www.abercrombiekent.co.uk/-/media/abercrombieandkent/images/destination-guides/europe/italy/13-must-see-italian-monuments/mainitalyromenight-view-at-st-peters-cathedral.jpg?w=1920&h=940"
@@ -48,8 +45,8 @@ const ChooseCities = () => {
             <div className="img-content-div">
               <h1>Italy</h1>
 
-              <div style={{ display: "flex", gap: "8px", marginTop: "15px" }}>
-                <div>
+              <div className="country-details-div-wrapper">
+                <div className="country-detail-div-1">
                   <h4>Best Time To Visit</h4>
                   <div className="country-details-div">
                     <div
@@ -76,7 +73,7 @@ const ChooseCities = () => {
                   </div>
                 </div>
 
-                <div>
+                <div className="country-detail-div-2">
                   <h4>Ratings</h4>
                   <div className="details-div">
                     <h6>
@@ -85,11 +82,12 @@ const ChooseCities = () => {
                     <p>3.5K Reviews</p>
                   </div>
                 </div>
-                <div>
+
+                <div className="country-detail-div-3">
                   <h4 style={{ marginTop: 0, paddingTop: 0 }}>Blogs</h4>
                   <div
                     className="details-div"
-                    style={{ display: "flex", width: "80px",backgroundColor:"#CBC3E3" }}
+                    style={{ display: "flex", width: "90%",backgroundColor:"#CBC3E3" }}
                   >
                     <h6 style={{ width: "50%" }}>Travel Blog</h6>
                     <div className="details-div-arrow">
@@ -129,7 +127,7 @@ const ChooseCities = () => {
           <CityCard />
         </div>
 
-        <button className="city-button" style={{width:"120px", alignSelf:"center", marginTop:"50px", color:"#323232"}}>
+        <button className="city-button bottom-city-button">
             Max Days <IoIosArrowDown />
         </button>
       </div>

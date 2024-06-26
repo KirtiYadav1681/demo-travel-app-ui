@@ -1,6 +1,7 @@
 import React from "react";
 import { MdArrowOutward } from "react-icons/md";
 import { FaCheck } from "react-icons/fa6";
+import './CountryCard.css';
 
 const CountryCard = ({country, content}) => {
   return (

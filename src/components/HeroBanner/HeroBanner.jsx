@@ -2,20 +2,19 @@ import React from "react";
 import { RiDoubleQuotesL } from "react-icons/ri";
 import { FaUserCircle } from "react-icons/fa";
 import { FaStar } from "react-icons/fa";
-import SubHeading from "./SubHeading";
-import BlackButton from "./BlackButton";
+import {SubHeading,BlackButton} from "../";
+import "./HeroBanner.css";
 
 const HeroBanner = () => {
   return (
     <section className="section">
-      <div className="hero-banner">
-
+      <div className="hero-banner flex-row">
         <div className="left-container">
           <SubHeading subHeading="EXPLORE THE WORLD" />
           <h1>
             Experience A Better Way To Travel, Let Us Guide You On Your Way
           </h1>
-          <div className="content-wrapper">
+          <div className="content-wrapper flex-row">
             <RiDoubleQuotesL size={50} />
             <p className="content">
               Let's craft a curated set of destinations just for you, and we'll
@@ -41,20 +40,21 @@ const HeroBanner = () => {
         </div>
 
         <div className="right-container">
-          <div id="first-image">
-            <img
-              src="https://images.unsplash.com/photo-1510525009512-ad7fc13eefab?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bGFrZSUyMGJvYXR8ZW58MHx8MHx8fDA%3D"
-              alt="boat-2"
-            />
-          </div>
-          <div id="second-image">
-            <img
-              src="https://images.unsplash.com/photo-1542856391-010fb87dcfed?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGFrZSUyMGJvYXR8ZW58MHx8MHx8fDA%3D"
-              alt="boat-1"
-            />
+          <div className="image-wrapper-hero-banner">
+            <div id="first-image">
+              <img
+                src="https://images.unsplash.com/photo-1510525009512-ad7fc13eefab?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bGFrZSUyMGJvYXR8ZW58MHx8MHx8fDA%3D"
+                alt="boat-2"
+              />
+            </div>
+            <div id="second-image">
+              <img
+                src="https://images.unsplash.com/photo-1542856391-010fb87dcfed?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGFrZSUyMGJvYXR8ZW58MHx8MHx8fDA%3D"
+                alt="boat-1"
+              />
+            </div>
           </div>
         </div>
-        
       </div>
     </section>
   );

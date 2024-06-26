@@ -1,5 +1,6 @@
 import React from "react";
 import { IoAirplaneOutline, IoLocationOutline } from "react-icons/io5";
+import './FlightCard.css';
 
 const FlightCard = () => {
   return (

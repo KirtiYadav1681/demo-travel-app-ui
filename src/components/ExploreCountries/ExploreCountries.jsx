@@ -1,9 +1,6 @@
 import React from 'react'
-import SubHeading from './SubHeading'
-import BlackButton from './BlackButton'
-import SubSubHeading from './SubSubHeading'
-import WhiteButton from './WhiteButton'
-import CountryCard from './CountryCard'
+import {SubHeading, BlackButton, SubSubHeading, WhiteButton, CountryCard} from '../'
+import './ExploreCountries.css'
 
 const cardContent = 'Explore the Charming And Historic Cities of Amsterdam, Utrecht,Rotterdam, And The Hague. Wander Through Cobblestone Streets Lined With Historic Buildings, Visit Iconic Landmarks...';
 

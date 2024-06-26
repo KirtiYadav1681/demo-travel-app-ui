@@ -1,10 +1,10 @@
 import React from "react";
-import SubHeading from "./SubHeading";
-import BlackButton from "./BlackButton";
+import {SubHeading, BlackButton} from "../";
+import './LetsGetStartedSection.css';
 
 const LetsGetStartedSection = () => {
   return (
-    <section className="section" style={{ padding: "60px 10%" }}>
+    <section className="section" >
       <div className="hero-banner">
         <div className="left-get-started-div">
           <div className="left-left">

@@ -1,0 +1,118 @@
+
+.left-get-started-div {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    width: 50%;
+}
+
+.left-left img {
+    height: 650px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.left-right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.left-right img {
+    height: 315px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.right-get-started-div{
+    margin-top: 30px;
+    padding-left:50px;
+    width: 50%;
+  }
+  
+  .right-get-started-div h2{
+    font-size: 30px;
+    margin:25px 0 20px 0;
+    color: #323232;
+  }
+  
+  .right-get-started-div textarea{
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+    border-radius: 20px;
+    font: 15px;
+    color: gray;
+    outline: none;
+    border: none;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .date-picker-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+  }
+  
+  .date-picker-wrapper div{
+    width: 50%;
+  }
+  
+  .date-picker-wrapper div h4{
+    margin-top:-10px
+  }
+  
+  .right-get-started-div input{
+    width: 80%;
+    padding: 10px;
+    border-radius: 20px;
+    font: 15px;
+    color: gray;
+    outline: none;
+    border: none;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  @media screen and (max-width:1024px) {
+    .right-get-started-div{
+        margin-top: 0px;
+        padding-left:20px;
+      }
+
+      .right-get-started-div textarea{
+        width:90%;
+      }
+      .left-left img {
+        display: none;
+    }
+    .left-right img {
+      height: 315px;
+      width: 100%;
+      border-radius: 15px;
+  }
+  .left-get-started-div {
+    gap:0px;
+    width: 25%;
+}
+.right-get-started-div{
+  width: 75%;
+}
+  }
+
+  @media screen and (max-width:672px) {
+    .left-get-started-div {
+      display: none;
+  }
+  .right-get-started-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding:0 5px;
+  }
+  h2{
+    text-align: center;
+  }
+
+  }

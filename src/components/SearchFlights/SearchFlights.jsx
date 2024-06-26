@@ -1,9 +1,8 @@
 import React from "react";
-import SubHeading from "./SubHeading";
-import SubSubHeading from "./SubSubHeading";
+import { SubHeading, SubSubHeading, FlightCard } from "../";
 import { MdOutlineFlightTakeoff } from "react-icons/md";
 import { IoIosArrowDown } from "react-icons/io";
-import FlightCard from "./FlightCard";
+import "./SearchFlights.css";
 
 const SearchFlights = () => {
   return (
@@ -23,74 +22,76 @@ const SearchFlights = () => {
         <div className="flight-bottom-wrapper">
           <div className="flight-bottom-left-wrapper">
             <h2>Filters</h2>
-            <div className="filter">
-              <h4>Flight Outbound</h4>
-              <p>00:00 - 23:59</p>
-              <div className="filter-container">
-                <div className="filter-bar"></div>
-                <div
-                  className="filter-bar-active"
-                  style={{ width: "50%" }}
-                ></div>
-                <div className="filter-marker" style={{ left: "50%" }}></div>
+            <div className="flight-column-wrapper">
+              <div className="filter">
+                <h4>Flight Outbound</h4>
+                <p>00:00 - 23:59</p>
+                <div className="filter-container">
+                  <div className="filter-bar"></div>
+                  <div
+                    className="filter-bar-active"
+                    style={{ width: "50%" }}
+                  ></div>
+                  <div className="filter-marker" style={{ left: "50%" }}></div>
+                </div>
+              </div>
+
+              <div className="filter">
+                <h4>Flight Outbound</h4>
+                <p>00:00 - 23:59</p>
+                <div className="filter-container">
+                  <div className="filter-bar"></div>
+                  <div
+                    className="filter-bar-active"
+                    style={{ width: "50%" }}
+                  ></div>
+                  <div className="filter-marker" style={{ left: "50%" }}></div>
+                </div>
+              </div>
+
+              <div className="filter">
+                <h4>Flight Outbound</h4>
+                <p>00:00 - 23:59</p>
+                <div className="filter-container">
+                  <div className="filter-bar"></div>
+                  <div
+                    className="filter-bar-active"
+                    style={{ width: "50%" }}
+                  ></div>
+                  <div className="filter-marker" style={{ left: "50%" }}></div>
+                </div>
+              </div>
+
+              <div className="filter">
+                <h4>Flight Outbound</h4>
+                <p>00:00 - 23:59</p>
+                <div className="filter-container">
+                  <div className="filter-bar"></div>
+                  <div
+                    className="filter-bar-active"
+                    style={{ width: "50%" }}
+                  ></div>
+                  <div className="filter-marker" style={{ left: "50%" }}></div>
+                </div>
+              </div>
+
+              <div className="filter">
+                <h4>Flight Outbound</h4>
+                <p>00:00 - 23:59</p>
+                <div className="filter-container">
+                  <div className="filter-bar"></div>
+                  <div
+                    className="filter-bar-active"
+                    style={{ width: "50%" }}
+                  ></div>
+                  <div className="filter-marker" style={{ left: "50%" }}></div>
+                </div>
               </div>
             </div>
 
-            <div className="filter">
-              <h4>Flight Outbound</h4>
-              <p>00:00 - 23:59</p>
-              <div className="filter-container">
-                <div className="filter-bar"></div>
-                <div
-                  className="filter-bar-active"
-                  style={{ width: "50%" }}
-                ></div>
-                <div className="filter-marker" style={{ left: "50%" }}></div>
-              </div>
-            </div>
-
-            <div className="filter">
-              <h4>Flight Outbound</h4>
-              <p>00:00 - 23:59</p>
-              <div className="filter-container">
-                <div className="filter-bar"></div>
-                <div
-                  className="filter-bar-active"
-                  style={{ width: "50%" }}
-                ></div>
-                <div className="filter-marker" style={{ left: "50%" }}></div>
-              </div>
-            </div>
-
-            <div className="filter">
-              <h4>Flight Outbound</h4>
-              <p>00:00 - 23:59</p>
-              <div className="filter-container">
-                <div className="filter-bar"></div>
-                <div
-                  className="filter-bar-active"
-                  style={{ width: "50%" }}
-                ></div>
-                <div className="filter-marker" style={{ left: "50%" }}></div>
-              </div>
-            </div>
-
-            <div className="filter">
-              <h4>Flight Outbound</h4>
-              <p>00:00 - 23:59</p>
-              <div className="filter-container">
-                <div className="filter-bar"></div>
-                <div
-                  className="filter-bar-active"
-                  style={{ width: "50%" }}
-                ></div>
-                <div className="filter-marker" style={{ left: "50%" }}></div>
-              </div>
-            </div>
-
-            <div className="filter">
-              <h4>Maximum Stepovers</h4>
-              <button>
+              <div className="filter">
+                <h4>Maximum Stepovers</h4>
+                <button>
                   Best Overall <IoIosArrowDown />
                 </button>
               </div>
@@ -158,7 +159,6 @@ const SearchFlights = () => {
             </div>
           </div>
         </div>
-        
       </div>
     </section>
   );
