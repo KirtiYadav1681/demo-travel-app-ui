@@ -2,7 +2,7 @@
 This repository contains the code for a fully responsive travel website created from scratch using React and CSS. The website includes various sections such as a landing page, a form for getting started, explore countries and cities sections, a flight search functionality, and a footer with important links.
 
 ## Demo
-Check out the live website: [https://react-travel-webui.netlify.app/][Travel Website]
+Check out the live website: [https://react-travel-webui.netlify.app/]
 
 ## Table of Contents
 -Features
