@@ -1,4 +1,5 @@
 import React from 'react'
+import './SubHeading.css';
 
 const SubHeading = ({subHeading}) => {
   return (

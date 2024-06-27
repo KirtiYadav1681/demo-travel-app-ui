@@ -188,6 +188,7 @@
         width: 100%;
     }
     .img-content-div {
+        text-align: center;
         margin-top: 15px;
         background-color: transparent;
         box-shadow: none;

@@ -8,13 +8,13 @@ import "./HeroBanner.css";
 const HeroBanner = () => {
   return (
     <section className="section">
-      <div className="hero-banner flex-row">
+      <div className="hero-banner">
         <div className="left-container">
           <SubHeading subHeading="EXPLORE THE WORLD" />
           <h1>
             Experience A Better Way To Travel, Let Us Guide You On Your Way
           </h1>
-          <div className="content-wrapper flex-row">
+          <div className="content-wrapper">
             <RiDoubleQuotesL size={50} />
             <p className="content">
               Let's craft a curated set of destinations just for you, and we'll

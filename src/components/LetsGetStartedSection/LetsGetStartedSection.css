@@ -63,7 +63,7 @@
     margin-top:-10px
   }
   
-  .right-get-started-div input{
+  .right-get-started-div textarea, input{
     width: 80%;
     padding: 10px;
     border-radius: 20px;
@@ -112,6 +112,12 @@
     padding:0 5px;
   }
   h2{
+    text-align: center;
+  }
+  .date-picker-wrapper{
+    width: 100%;
+  }
+  .date-picker-wrapper div h4{
     text-align: center;
   }
 

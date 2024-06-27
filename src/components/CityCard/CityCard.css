@@ -50,6 +50,9 @@
         font-size: 15px;
         margin-top: 5px;
     }
+    .city-button {
+        padding: 5px;
+    }
 }
 @media screen and (max-width: 980px) {
     .city-card-wrapper {
@@ -72,5 +75,14 @@
         top:50%;
         width: 90%;
         right: 2%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .city-card-content-wrapper {
+        top:40%;
+        width: 85%;
+        right: 4%;
+        left: 4%;
     }
 }

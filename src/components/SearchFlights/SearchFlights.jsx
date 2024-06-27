@@ -20,6 +20,7 @@ const SearchFlights = () => {
         </div>
 
         <div className="flight-bottom-wrapper">
+        
           <div className="flight-bottom-left-wrapper">
             <h2>Filters</h2>
             <div className="flight-column-wrapper">
@@ -148,7 +149,7 @@ const SearchFlights = () => {
                 </button>
               </div>
             </div>
-            <p style={{ color: "#323232", fontWeight: "500" }}>
+            <p style={{ color: "#323232", fontWeight: "500" }} className="text-below-search-flight-sub-sub-heading">
               Price per passenger includes tax and fees
             </p>
 

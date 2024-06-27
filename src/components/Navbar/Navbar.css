@@ -28,6 +28,12 @@
   border-radius: 20px;
 }
 
+@media screen and (max-width: 1450px) and (min-width: 1024px) {
+  .navbar-wrapper {
+    padding: 20px 4% 10px 4%;;
+  }
+  
+}
 @media screen and (max-width:1024px) {
   .navbar-wrapper {
     padding: 20px 2% 10px 2%;
